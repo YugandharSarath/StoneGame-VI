@@ -1,0 +1,98 @@
+{
+  "title": "Stone Game VI",
+  "difficulty": "Medium",
+  "duration": "30-45 min",
+  "topics": [
+    "Greedy Algorithm",
+    "Game Theory",
+    "Sorting",
+    "Array",
+    "Math"
+  ],
+  "companies": [
+    "Google",
+    "Facebook",
+    "Amazon",
+    "Microsoft",
+    "Apple",
+    "ByteDance",
+    "Uber",
+    "Adobe"
+  ],
+  "tags": [
+    "optimal-strategy",
+    "combined-value",
+    "game-simulation",
+    "greedy-choice",
+    "two-player-game",
+    "score-maximization",
+    "sorting-application",
+    "opportunity-cost",
+    "competitive-programming"
+  ],
+  "leetcode_id": 1686,
+  "difficulty_score": 6.5,
+  "acceptance_rate": "65.2%",
+  "frequency": "Medium-High",
+  "patterns": [
+    "Greedy Algorithm",
+    "Game Theory",
+    "Sorting by Custom Criteria"
+  ],
+  "prerequisites": [
+    "Basic Array Operations",
+    "Sorting Algorithms",
+    "Game Theory Fundamentals"
+  ],
+  "similar_problems": [
+    "Stone Game",
+    "Stone Game II",
+    "Stone Game III",
+    "Stone Game IV",
+    "Stone Game V",
+    "Stone Game VII",
+    "Predict the Winner"
+  ],
+  "complexity": {
+    "time": "O(n log n)",
+    "space": "O(n)"
+  },
+  "hints_count": 3,
+  "follow_up_questions": [
+    "What if there were 3 players instead of 2?",
+    "How would the strategy change if players didn't know opponent's values?",
+    "Can you prove the greedy approach is optimal?",
+    "What if players could skip turns?"
+  ],
+  "real_world_applications": [
+    "Auction Strategy",
+    "Resource Allocation",
+    "Competitive Bidding",
+    "Game AI Development",
+    "Economic Game Theory"
+  ],
+  "key_insights": [
+    "Combined value determines optimal picking order",
+    "Taking a stone denies opponent points",
+    "Greedy approach is provably optimal",
+    "Score swing is maximized by highest combined values"
+  ],
+  "common_mistakes": [
+    "Sorting by individual values instead of combined",
+    "Not considering opportunity cost",
+    "Forgetting Alice goes first (even indices)",
+    "Overcomplitating with DP when greedy works"
+  ],
+  "learning_objectives": [
+    "Understand greedy algorithms in game theory",
+    "Learn to identify when greedy approach is optimal",
+    "Master combined value strategy",
+    "Practice optimal strategy analysis"
+  ],
+  "difficulty_breakdown": {
+    "algorithm_design": "Medium",
+    "implementation": "Easy", 
+    "mathematical_proof": "Hard",
+    "edge_cases": "Easy"
+  }
+}
